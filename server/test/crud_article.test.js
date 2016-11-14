@@ -16,7 +16,7 @@ const nightmare = Nightmare({
 
 const URL = 'http://localhost:8080'
 
-describe('Create new article', function() {
+describe('CRUD function on article', function() {
     this.timeout(30000)
     it('Expect to be post article and return title&content of the article', function(done) {
         nightmare
